@@ -27,7 +27,7 @@ Vagrant VM을 활용한 Hyperledger Fabric 개발환경 설정
 ```
 #### 가상머신 : `$`로 시작되는 커맨드
 ```shell
-$ ./install/install-prereqs
+$ ./scripts/install-prereqs
 ```
 ---
 
@@ -44,10 +44,10 @@ $ ./install/install-prereqs
 
 1. 설치 스크립트 실행,
 
-`install` 디렉토리에 들어 있는 `install-prereqs.sh` 실행 후 재접속
+`scripts` 디렉토리에 들어 있는 `install-prereqs.sh` 실행 후 재접속
 
 ```shell
-$ ./install/install-prereqs.sh
+$ ./scripts/install-prereqs.sh
 
 # 가상 머신으로부터 로그아웃
 $ logout
